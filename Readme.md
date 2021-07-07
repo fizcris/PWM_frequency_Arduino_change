@@ -1,4 +1,4 @@
-##  Change PWM frecuency ARDUINO UNO
+##  Change PWM frecuency **ARDUINO UNO**
 ### Function:  		setPwmFrequencyUNO(pin,divisor);
 Description:
 
@@ -26,6 +26,7 @@ For pins 9, 10, 11 and 3: (9 & 10 and 11 & 3 are together, can not modify indivi
 	6	 122.55   Hz
 	7	 30.610   Hz	
 
+***
 ## Change PWM frecuency ARDUINO MEGA 2560
   
  

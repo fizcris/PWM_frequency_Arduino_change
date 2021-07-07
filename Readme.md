@@ -2,9 +2,7 @@
 ### Function:  		setPwmFrequencyUNO(pin,divisor);
 Description:
 
-DO NOT MODIFY pin 6 is the one on which rely all time functions in Arduino: i.e., 
-if you change the frequency of this pins, function like delay() or millis() 
-will continue to work but at a different timescale (quicker or slower!!!)
+**DO NOT MODIFY pin 6** as it is the one on which rely all time functions in Arduino: i.e., if you change the frequency of this pins, function like delay() or millis() will continue to work but at a different timescale (quicker or slower!!!)
  
  For pins 6 and 5:   (5 and 6 are together, can not modify individually,same timer)
  
@@ -41,7 +39,7 @@ This pins are together, can not modify frequency individually,same timmer):
 - pin 5, 3, 2
 - pin 8, 7, 6
  
-For pins 13,4 (DO NOT MODIFY pins 13 & 4 is the one on which rely 
+For pins 13,4 (**DO NOT MODIFY pins 13 & 4** as are tho ones on which rely 
 all time functions in Arduino: i.e., if you change the frequency of this pins, 
 function like delay() or millis() will continue to work but at a different timescale quicker or slower!))
 
